@@ -8,4 +8,4 @@ echo "who is running this: $USER"
 echo "which directort :$PWD"
 echo " PID  of current script:$$"
 echo " pid of the back ground command running just now:$!"
-echo " line number: $LINENO"
+echo  line number: $LINENO
