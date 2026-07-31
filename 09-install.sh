@@ -9,8 +9,8 @@
 
 #    echo " iam continuing ..."
 
-
-if [ $? -ne 0 ]; then
+  USERID=$( id -u )
+if [ $USERID -ne 0 ]; then
  echo "install mysql is ...failled"
 
 else
