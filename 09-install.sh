@@ -9,11 +9,12 @@
 
 #    echo " iam continuing ..."
 
-  USERID=$( id -u )
+USERID=$( id -u )
 if [ $USERID -ne 0 ]; then
  echo "install mysql is ...failled"
-
+ exit 1
 else
  echo "install mysql is ..success"
- fi
+ exit 0
+fi
 
