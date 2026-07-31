@@ -1,7 +1,7 @@
 #!/bin/bash
 
-persion1 = mahesh
-persion2 =suresh
+person1=mahesh
+person2=suresh
 
 
 echo " $persion1: we are going school"
