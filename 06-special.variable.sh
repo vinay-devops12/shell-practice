@@ -1,4 +1,4 @@
 #!/bin/bash
 ## special variables 
 
-echo " all variables passed to script:"$@"
+echo "All variables passed to script: $@"
