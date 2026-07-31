@@ -4,4 +4,4 @@
 echo "All variables passed to script: $@"
 echo " Number of variables passed:$#"
 echo " script name:$0"
-S 
+echo "who is running this: $USER"
