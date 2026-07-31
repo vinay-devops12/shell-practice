@@ -9,4 +9,4 @@ echo "which directort :$PWD"
 echo " PID  of current script:$$"
 echo " pid of the back ground command running just now:$!"
 echo  line number: $LINENO
-echo " script executed in $SECONDS"
+echo " script executed in a $SECONDS"
