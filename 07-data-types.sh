@@ -19,3 +19,5 @@ echo " sum: $SUM"
 MOVIES=("RRR" "VARANASI" "KING")
 echo " movie are : ${MOVIES[@]}"
 
+echo " first moive is:${MOVIES[0]}"
+
