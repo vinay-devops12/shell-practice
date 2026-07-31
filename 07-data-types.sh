@@ -16,6 +16,6 @@ echo " sum: $SUM"
 ### arrey command 
 ## position start with (zero).. and numbering start with (one..)
 
-MOVIES = ("RRR","VARANASI","KING")
+MOVIES=("RRR" "VARANASI" "KING")
 echo " movie are : ${MOVIES[@]}"
 
