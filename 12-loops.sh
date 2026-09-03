@@ -18,4 +18,14 @@ VALIDATE() {
     fi
 }
 
-
+for package in "$@"
+do
+  echo "installing $package"
+  dnf install $package -y
+ 
+  if [ $? -ne 0 ]; then
+    echo "installation of $package failed"
+  else
+    echo "installation of $package success"
+  fi
+done
